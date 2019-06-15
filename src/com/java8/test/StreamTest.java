@@ -12,7 +12,7 @@ public class StreamTest {
 		
 		Stream<String> s = words.stream();
 		s.sorted()
-		 .limit(2)
+		 .limit(3)
 		 .forEach(System.out::println);
 		
 		List<String> wordsNull = Arrays.asList("nonnull", null, "");
